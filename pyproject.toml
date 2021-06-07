@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ehlers_danlos_syndrome"
+version = "0.1.0"
+description = ""
+authors = ["Aidan Holland <thehappydinoa@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.scripts]
+eds = 'ehlers_danlos_syndrome.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+arv = "^0.9.2"
+beautifulsoup4 = "^4.9.3"
+click = "^8.0.1"
+requests = "^2.25.1"
+rich = "^10.2.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.5b2", allow-prereleases = true}
+flake8 = {version = "^3.9.2", allow-prereleases = true}
+mypy = {version = "^0.812", allow-prereleases = true}
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
