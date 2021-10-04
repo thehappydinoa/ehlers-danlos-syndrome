@@ -21,7 +21,7 @@ black = {version = "^21.9b0", allow-prereleases = true}
 flake8 = {version = "^3.9.2", allow-prereleases = true}
 mypy = {version = "^0.910", allow-prereleases = true}
 pytest = "^6.2.5"
-pytest-cov = "^2.12.1"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
